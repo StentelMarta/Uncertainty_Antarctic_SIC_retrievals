@@ -2,9 +2,9 @@ c-----------------------------------------------------------------------
 -                        SENSOR PARAMETERS                          -
 c-----------------------------------------------------------------------
 -- Electromagnetic Wavelength (meter) [e.g. L-band = 0.2123]
-0.0033684546
+0.016042780748
 -- Two-scale cutoff wavenumber(s) (rad/m) [Typical is 2*pi/wavelength/N with N = 3 -> 5]
-466.3255152065569
+97.91297104092897
 9999
 -- Earth incidence angle(s) (degrees)
 55.
@@ -63,7 +63,7 @@ c-----------------------------------------------------------------------
 -                              Output Files                            -
 c-----------------------------------------------------------------------
 -- Output file that includes foam impact ('none' => no output with foam)
-test_89_Dinnat_Meissner_temp_1_9deg.dat
+test_19_Dinnat_Meissner_temp_0deg.dat
 -- Output file with no foam impact ('none' => no output without foam)
 'none'
 c-----------------------------------------------------------------------
