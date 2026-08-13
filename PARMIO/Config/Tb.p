@@ -2,7 +2,7 @@ c-----------------------------------------------------------------------
 -                        SENSOR PARAMETERS                          -
 c-----------------------------------------------------------------------
 -- Electromagnetic Wavelength (meter) [e.g. L-band = 0.2123]
-0.016042780748
+0.016042780748 
 -- Two-scale cutoff wavenumber(s) (rad/m) [Typical is 2*pi/wavelength/N with N = 3 -> 5]
 97.91297104092897
 9999
@@ -46,7 +46,7 @@ c-----------------------------------------------------------------------
 -- Altitude for Wind Speeds provided (m)
 10.
 -- Model for drag coefficient(y : Cardone (69), c : Charnock (55), d:Donelan(93))
-y
+d
 c-----------------------------------------------------------------------
 -                              OCEAN                                   -
 c-----------------------------------------------------------------------
@@ -63,9 +63,9 @@ c-----------------------------------------------------------------------
 -                              Output Files                            -
 c-----------------------------------------------------------------------
 -- Output file that includes foam impact ('none' => no output with foam)
-test_19_Dinnat_Meissner_temp_0deg.dat
+test_19_amplitude_005_iwa_001_temp_0deg_de.dat
 -- Output file with no foam impact ('none' => no output without foam)
-'none'
+nofaom_test_19_amplitude_005_iwa_001_temp_0deg_de.dat
 c-----------------------------------------------------------------------
 -                               SEA STATE                              -
 c-----------------------------------------------------------------------
@@ -74,16 +74,16 @@ s
 -- Amplitude  coefficient for sea spectrum by Durden & Vesecky 1985 (e.g. 0.008 Yueh ; 0.004 original DV1985)
 0.005
 -- Sea Spectrum Model (e: Elfouhaily, d:Durden & Vesecky)
-d
+e
 -- Inverse wave age
-0.84
+0.01
 c-----------------------------------------------------------------------
 -                               FOAM                                   -
 c-----------------------------------------------------------------------
 -- Model for Foam fraction (Monahan (86) : M1, M2 (least square); Monahan & Lu (90): M3 (active + passive), M4 (active); WISE2001 : M5; Yin et al. (2016), 5 versions: M-Du-E, M-Du-E1, M-Du-S, M-Ku-E, M-Ku-S)
 M1
 -- Model for Foam emissivity (Stogryn 72 : S; Yin et al. (2016), 5 versions: M-Du-E, M-Du-E1, M-Du-S, M-Ku-E, M-Ku-S; Anguelova et al. 2022 (multi-freq tuned): M-Du-Tune)
-M-Du-E1
+M-Du-E
 c-----------------------------------------------------------------------
 -                           PERMITTIVITY                               -
 c-----------------------------------------------------------------------
